@@ -52,7 +52,7 @@ const Signup = () => {
         },
       };
       const { data } = await axios.post(
-        "/api/user",
+        "https://connectusbackend.onrender.com/api/user",
         {
           name,
           email,
